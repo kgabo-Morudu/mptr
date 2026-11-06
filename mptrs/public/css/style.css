@@ -1,0 +1,23 @@
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f4f6f9; }
+.auth-bg { background: linear-gradient(135deg,#1e3c72 0%,#2a5298 100%); }
+.sidebar {
+    width: 230px; min-height: calc(100vh - 56px);
+    background: #1b2a41 !important;
+    position: sticky; top: 56px;
+}
+.sidebar .nav-link { border-radius: 6px; margin-bottom: 3px; font-size: .92rem; }
+.sidebar .nav-link:hover { background: rgba(255,255,255,.08); }
+.content-area { min-height: calc(100vh - 56px); }
+.kpi-card { border: none; border-radius: 12px; color: #fff; overflow: hidden; }
+.kpi-card .value { font-size: 1.9rem; font-weight: 700; }
+.kpi-card .label { font-size: .85rem; opacity: .9; }
+.bg-kpi-1 { background: linear-gradient(135deg,#667eea,#764ba2); }
+.bg-kpi-2 { background: linear-gradient(135deg,#f093fb,#f5576c); }
+.bg-kpi-3 { background: linear-gradient(135deg,#4facfe,#00f2fe); }
+.bg-kpi-4 { background: linear-gradient(135deg,#43e97b,#38f9d7); }
+.bg-kpi-5 { background: linear-gradient(135deg,#fa709a,#fee140); }
+.bg-kpi-6 { background: linear-gradient(135deg,#30cfd0,#330867); }
+.bg-kpi-7 { background: linear-gradient(135deg,#ff9a44,#fc6076); }
+.table-responsive { border-radius: 10px; overflow: hidden; }
+.card { border: none; border-radius: 10px; }
+@media (max-width: 768px) { .sidebar { display: none; } }
